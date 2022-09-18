@@ -1,0 +1,17 @@
+.header {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: rgb(20, 91, 232);
+  min-height: 75px;
+
+  a {
+    margin-right: 20px;
+    color: #fcfcfc;
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+}

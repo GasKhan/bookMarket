@@ -1,0 +1,29 @@
+.bookItem {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 5px 10px;
+}
+
+.top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  img {
+    width: 100%;
+    object-fit: cover;
+  }
+}
+
+.bottom {
+  padding: 0px 10px;
+}
+
+.title {
+  margin: 0 0 10px;
+}
+
+.subtitle {
+  margin-top: 0;
+}

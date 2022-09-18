@@ -1,0 +1,38 @@
+.pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.paginationElem {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 25px;
+  padding: 3px 5px;
+  margin: 0 2px;
+  border: 1px solid #000;
+  border-radius: 2px;
+}
+
+.arrowIcon {
+  padding: 5px;
+}
+
+.arrowIcon:active {
+  color: rgb(241, 15, 60);
+  border: 1px solid rgb(241, 15, 60);
+}
+
+.active {
+  border-color: rgb(241, 15, 60);
+}
+
+.arrowLeft {
+  margin-right: 10px;
+}
+
+.arrowRight {
+  margin-left: 10px;
+}
